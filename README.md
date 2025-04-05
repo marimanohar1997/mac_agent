@@ -19,13 +19,13 @@ Before you begin, ensure you have the following installed on your system:
 2. Clone the repository:
 
    ```
-   git clone https://github.com/marimanohar1997/system-agent.git
+   git clone https://github.com/marimanohar1997/mac_agent.git
    ```
 
 3. Navigate to the project directory:
 
    ```
-   cd system-agent
+   cd mac_agent
    ```
 
 4. Install the required dependencies:
@@ -41,7 +41,7 @@ Before you begin, ensure you have the following installed on your system:
 
 3. Replace the mock API URL with your actual API endpoint:
    ```go
-   url := "https://your-actual-api-endpoint.com/system-agent"
+   url := "https://your-actual-api-endpoint.com/mac_agent"
    ```
 
 ## Usage
@@ -60,7 +60,7 @@ To run the System Information Collector:
 
 4. The program will collect system information and perform two actions:
 
-   - Save the information to a JSON file in your home directory under `Library/Logs/system-agent/`.
+   - Save the information to a JSON file in your home directory under `Library/Logs/mac_agent/`.
    - Send the information to the configured API endpoint.
 
 5. Check the console output for the location of the saved JSON file and the API response.
@@ -69,7 +69,7 @@ To run the System Information Collector:
 
 The program generates two types of output:
 
-1. **JSON File**: A detailed JSON file containing all collected system information. You can find this file in your home directory under `Library/Logs/system-agent/`. The filename includes a timestamp.
+1. **JSON File**: A detailed JSON file containing all collected system information. You can find this file in your home directory under `Library/Logs/mac_agent/`. The filename includes a timestamp.
 
 2. **API Response**: The program will print the response from the API to the console.
 
@@ -89,4 +89,5 @@ Contributions to improve the System Information Collector are welcome. Please fe
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 # mac_agent
