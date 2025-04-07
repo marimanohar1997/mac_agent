@@ -1,4 +1,4 @@
-module github.com/yourusername/system-agent
+module github.com/yourusername/mac_agent
 
 go 1.23.2
 

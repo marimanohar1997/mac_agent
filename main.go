@@ -202,7 +202,7 @@ func saveToFile(info SystemInfo) {
 		log.Fatal(err)
 	}
 
-	outputDir := filepath.Join(homeDir, "Library", "Logs", "system-agent")
+	outputDir := filepath.Join(homeDir, "Library", "Logs", "mac-agent")
 	err = os.MkdirAll(outputDir, 0755)
 	if err != nil {
 		log.Fatal(err)
